@@ -1,6 +1,8 @@
 # compiled output
 /dist
 /node_modules
+/build
+/tmp
 
 # Logs
 logs
@@ -33,7 +35,14 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+.env.development
+.env.test
+.env.production
 !.env.example
+
+# Temp
+.temp
+.tmp
 
 # Prisma generated client (generate with: npx prisma generate)
 src/generated/
